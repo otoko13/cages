@@ -1,0 +1,23 @@
+.RandomCage {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.cage-1 {
+        background-image: url("../resources/cage-(1).png");
+    }
+    &.cage-2 {
+        background-image: url("../resources/cage-(2).png");
+    }
+    &.cage-3 {
+        background-image: url("../resources/cage-(3).png");
+    }
+    &.cage-4 {
+        background-image: url("../resources/cage-(4).png");
+    }
+    &.cage-5 {
+        background-image: url("../resources/cage-(5).png");
+    }
+}
