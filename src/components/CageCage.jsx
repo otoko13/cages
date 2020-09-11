@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './cageCage.scss';
 import RandomCage from './RandomCage';
 
-const CageCage = () => {
-    const [nicolasCount, setNicolasCount] = useState(1);
+const CageCage = ({ initialCages }) => {
+    const [nicolasCount, setNicolasCount] = useState(initialCages);
 
     const handleClick = () => {
         setNicolasCount(nicolasCount + 1);

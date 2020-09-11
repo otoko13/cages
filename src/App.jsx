@@ -6,7 +6,7 @@ import CageCage from './components/CageCage';
 function App() {
   return (
     <div className="App">
-      <CageCage />
+      <CageCage initialCages={3} />
     </div>
   );
 }
