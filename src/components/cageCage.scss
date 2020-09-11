@@ -1,10 +1,20 @@
 .CageCage {
+    position: relative;
     
-    .cage-proper {
-        background-repeat: repeat-x;
-        background-size: contain;
+    .cage-background {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background-repeat: repeat;
         background-image: url("../resources/bars.png");
         padding: 50px;
+    }
+
+    .cage-proper {
+        position: relative;
     }
 
     .add-button {

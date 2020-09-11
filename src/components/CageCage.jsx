@@ -13,6 +13,7 @@ const CageCage = () => {
         <div className="CageCage">
             <button onClick={handleClick} className="add-button">Add a Nicolas</button>
             <div className="cage-proper">
+                <div className="cage-background"></div>
                 {
                     [...Array(nicolasCount).keys()].map((nicolas) => <RandomCage key={nicolas} />)
                 }
