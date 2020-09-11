@@ -10,14 +10,14 @@ const CageCage = () => {
     };
 
     return (
-        <>
-            <button onClick={handleClick}>Add a Nicolas</button>
-            <div className="CageCage">
+        <div className="CageCage">
+            <button onClick={handleClick} className="add-button">Add a Nicolas</button>
+            <div className="cage-proper">
                 {
                     [...Array(nicolasCount).keys()].map((nicolas) => <RandomCage key={nicolas} />)
                 }
             </div>
-        </>
+        </div>
     );
 }
 
